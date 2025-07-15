@@ -617,7 +617,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Android: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    Standalone: CROSS_PLATFORM_INPUT
+    Standalone: CROSS_PLATFORM_INPUT;STARTER_ASSETS_PACKAGES_CHECKED
     Windows Store Apps: MOBILE_INPUT
     iPhone: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   additionalCompilerArguments: {}
@@ -727,7 +727,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 11bbe656-772e-4337-9b93-2b0ac82989fd
   framebufferDepthMemorylessMode: 0

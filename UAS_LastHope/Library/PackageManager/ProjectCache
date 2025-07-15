@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638881205294000822
-    m_Hash: 2816913809
+      ticks: 638881446141817390
+    m_Hash: 1223886136
   m_LockFileStatus:
     m_FilePath: C:/LASTHOPE_UNITY/LastHope/UAS_LastHope/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638881205294184870
-    m_Hash: 132222680
+      ticks: 638881446141997410
+    m_Hash: 3231255524
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,192 @@ m_LocalPackages:
 m_ProjectPath: C:/LASTHOPE_UNITY/LastHope/UAS_LastHope/Packages
 m_EditorVersion: 2022.3.57f1 (9d8bd91adc0a)
 m_ResolvedPackages:
+- packageId: com.unity.cinemachine@2.10.4
+  testable: 0
+  isDirectDependency: 1
+  version: 2.10.4
+  source: 1
+  resolvedPath: C:\LASTHOPE_UNITY\LastHope\UAS_LastHope\Library\PackageCache\com.unity.cinemachine@2.10.4
+  assetPath: Packages/com.unity.cinemachine
+  name: com.unity.cinemachine
+  displayName: Cinemachine
+  author:
+    name: 
+    email: 
+    url: 
+  category: cinematography
+  type: 
+  description: "Smart camera tools for passionate creators. \n\n--- ATTENTION ---\nUpgrading
+    a project from Cinemachine 2.x to Cinemachine 3.x is not automatic and not trivial.\nDon't
+    do it unless you're willing to put in the required effort.\n\n> For more details,
+    refer to the upgrade guide:\nhttps://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/CinemachineUpgradeFrom2.html\n--------------------\n\n\n"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.1.11-beta.1
+    - 2.1.12
+    - 2.1.13
+    - 2.2.0
+    - 2.2.7
+    - 2.2.8
+    - 2.2.9
+    - 2.2.10-preview.3
+    - 2.2.10-preview.4
+    - 2.3.1
+    - 2.3.3
+    - 2.3.4
+    - 2.3.5-preview.3
+    - 2.4.0-preview.3
+    - 2.4.0-preview.4
+    - 2.4.0-preview.6
+    - 2.4.0-preview.7
+    - 2.4.0-preview.8
+    - 2.4.0-preview.9
+    - 2.4.0-preview.10
+    - 2.4.0
+    - 2.5.0
+    - 2.6.0-preview.2
+    - 2.6.0-preview.3
+    - 2.6.0-preview.5
+    - 2.6.0-preview.8
+    - 2.6.0
+    - 2.6.1-preview.6
+    - 2.6.1
+    - 2.6.2-preview.1
+    - 2.6.2
+    - 2.6.3-preview.2
+    - 2.6.3
+    - 2.6.4
+    - 2.6.5
+    - 2.6.9
+    - 2.6.10
+    - 2.6.11
+    - 2.6.14
+    - 2.6.15
+    - 2.6.17
+    - 2.7.1
+    - 2.7.2
+    - 2.7.3
+    - 2.7.4
+    - 2.7.5
+    - 2.7.8
+    - 2.7.9
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    - 2.8.0-pre.1
+    - 2.8.0
+    - 2.8.1
+    - 2.8.2
+    - 2.8.3
+    - 2.8.4
+    - 2.8.6
+    - 2.8.9
+    - 2.9.0-pre.1
+    - 2.9.0-pre.6
+    - 2.9.1
+    - 2.9.2
+    - 2.9.4
+    - 2.9.5
+    - 2.9.7
+    - 2.10.0
+    - 2.10.1
+    - 2.10.2
+    - 2.10.3
+    - 2.10.4
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    - 3.0.0-pre.9
+    - 3.0.1
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    compatible:
+    - 2.10.3
+    - 2.10.4
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.0-pre.7
+    - 3.0.0-pre.8
+    - 3.0.0-pre.9
+    - 3.0.1
+    - 3.1.0
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    recommended: 2.10.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.1.31
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - camera
+  - follow
+  - rig
+  - fps
+  - cinematography
+  - aim
+  - orbit
+  - cutscene
+  - cinematic
+  - collision
+  - freelook
+  - cinemachine
+  - compose
+  - composition
+  - dolly
+  - track
+  - clearshot
+  - noise
+  - framing
+  - handheld
+  - lens
+  - impulse
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638851637662630000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.10/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+    revision: 87d5dbb847c5fae7125aa05286e81b6bb012076f
+    path: 
+  unityLifecycle:
+    version: 2.10.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.collab-proxy@2.8.2
   testable: 0
   isDirectDependency: 1
@@ -262,6 +448,140 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.unity.inputsystem@1.11.2
+  testable: 0
+  isDirectDependency: 1
+  version: 1.11.2
+  source: 1
+  resolvedPath: C:\LASTHOPE_UNITY\LastHope\UAS_LastHope\Library\PackageCache\com.unity.inputsystem@1.11.2
+  assetPath: Packages/com.unity.inputsystem
+  name: com.unity.inputsystem
+  displayName: Input System
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A new input system which can be used as a more extensible and customizable
+    alternative to Unity's classic input system in UnityEngine.Input.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.1
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.5.0
+    - 1.5.1
+    - 1.6.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.9.0
+    - 1.10.0
+    - 1.11.0
+    - 1.11.1
+    - 1.11.2
+    - 1.12.0
+    - 1.13.0
+    - 1.13.1
+    - 1.14.0
+    - 1.14.1
+    compatible:
+    - 1.11.2
+    - 1.12.0
+    - 1.13.0
+    - 1.13.1
+    - 1.14.0
+    - 1.14.1
+    recommended: 1.11.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - input
+  - events
+  - keyboard
+  - mouse
+  - gamepad
+  - touch
+  - vr
+  - xr
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638648557315530000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.11/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/InputSystem.git
+    revision: c8518694c7fdd2c755755e028e2ec19cdceda19b
+    path: 
+  unityLifecycle:
+    version: 1.11.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

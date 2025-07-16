@@ -6,7 +6,7 @@ public class Controller : MonoBehaviour
 {
     public float forwardSpeed = 5f; // Kecepatan maju
     public float horizontalSpeed = 5f; // Kecepatan kiri/kanan
-    public float jumpForce = 5f; // Kekuatan lompat
+    public float jumpForce = 8f; // Kekuatan lompat, lebih tinggi agar lompat lebih jauh
     public float crouchHeight = 0.5f; // Tinggi saat jongkok
     public float mouseSensitivity = 100f; // Sensitivitas mouse
     public AudioClip jumpSound; // Sound lompat
@@ -23,6 +23,7 @@ public class Controller : MonoBehaviour
     public float jumpSlowMultiplier = 0.5f; // Kecepatan setelah lompat (misal 0.5 = 50%)
     public float jumpSlowDuration = 1.5f;   // Lama efek slow setelah lompat (detik)
     private bool isJumpSlowed = false;
+    private bool isFinished = false; // Tambahan: status finish
 
     void Start()
     {
@@ -30,6 +31,8 @@ public class Controller : MonoBehaviour
         if (characterController != null)
         {
             originalHeight = characterController.height;
+            characterController.stepOffset = 0.7f; // Lebih tinggi agar bisa naik permukaan lebih kasar
+            characterController.slopeLimit = 50f;  // Biar bisa naik tanjakan lebih curam
         }
         else
         {
@@ -50,32 +53,33 @@ public class Controller : MonoBehaviour
 
     void Update()
     {
-        // Rotasi karakter dengan mouse (kanan-kiri)
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        yRotation += mouseX;
-        transform.rotation = Quaternion.Euler(0f, yRotation, 0f);
+        // Jika sudah finish, hentikan semua kontrol
+        if (isFinished)
+            return;
 
-        // Tentukan multiplier kecepatan (lambat saat crouch)
+        RaycastHit hit; // Deklarasi satu kali di awal fungsi
+
+        // Tidak ada rotasi sama sekali
         float speedMultiplier = 1f;
         if (isCrouching)
             speedMultiplier *= crouchSpeedMultiplier;
         if (isJumpSlowed)
             speedMultiplier *= jumpSlowMultiplier;
 
-        // Gerak maju otomatis (mengikuti arah karakter)
-        Vector3 move = transform.forward * forwardSpeed * speedMultiplier;
-
-        // Input kiri/kanan
+        // Geser kiri/kanan dengan A/D
         float horizontalInput = 0f;
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A)) horizontalInput = -1f;
+        else if (Input.GetKey(KeyCode.D)) horizontalInput = 1f;
+
+        // Cek tabrakan depan dengan Raycast
+        float zSpeed = forwardSpeed * speedMultiplier;
+        if (Physics.Raycast(transform.position + Vector3.up * 0.1f, Vector3.forward, out hit, 0.6f))
         {
-            horizontalInput = -1f;
+            zSpeed = 0f; // Stop maju jika ada dinding di depan
         }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            horizontalInput = 1f;
-        }
-        move += transform.right * horizontalInput * horizontalSpeed * speedMultiplier;
+
+        // Maju lurus ke Z+, geser di X
+        Vector3 move = new Vector3(horizontalInput * horizontalSpeed * speedMultiplier, 0, zSpeed);
 
         // Cek grounded
         if (characterController != null)
@@ -157,6 +161,48 @@ public class Controller : MonoBehaviour
         if (characterController != null)
         {
             characterController.Move(move * Time.deltaTime);
+
+            // Auto step up: cek ganjalan kecil di depan
+            if (isGrounded)
+            {
+                Vector3 origin = transform.position + Vector3.up * 0.1f;
+                float stepCheckDistance = 0.6f; // Jarak cek ke depan
+                float maxStepHeight = 0.7f;     // Maksimal tinggi step up (sama dengan stepOffset)
+                RaycastHit stepHit;
+                // Cek ada ganjalan di depan pada ketinggian kaki
+                if (Physics.Raycast(origin, Vector3.forward, out stepHit, stepCheckDistance))
+                {
+                    // Cek permukaan di atas ganjalan (cek apakah bisa naik)
+                    Vector3 upperOrigin = origin + Vector3.up * maxStepHeight;
+                    if (!Physics.Raycast(upperOrigin, Vector3.forward, stepCheckDistance))
+                    {
+                        // Cek permukaan di atas ganjalan
+                        RaycastHit upperHit;
+                        if (Physics.Raycast(stepHit.point + Vector3.up * (maxStepHeight + 0.1f), Vector3.down, out upperHit, maxStepHeight + 0.2f))
+                        {
+                            float stepHeight = upperHit.point.y - transform.position.y;
+                            if (stepHeight > 0.01f && stepHeight < maxStepHeight)
+                            {
+                                // Naikkan posisi karakter ke atas ganjalan
+                                Vector3 pos = transform.position;
+                                pos.y += stepHeight + 0.02f;
+                                transform.position = pos;
+                            }
+                        }
+                    }
+                }
+            }
+
+            // Raycast snap ke permukaan ramp agar karakter menempel, hanya saat tidak grounded
+            if (!isGrounded)
+            {
+                if (Physics.Raycast(transform.position + Vector3.up * 0.1f, Vector3.down, out hit, 2f))
+                {
+                    Vector3 pos = transform.position;
+                    pos.y = hit.point.y + characterController.height / 2f;
+                    transform.position = pos;
+                }
+            }
         }
         else
         {
@@ -186,6 +232,9 @@ public class Controller : MonoBehaviour
             }
         }
         wasGroundedLastFrame = isGrounded;
+
+        // Kunci rotasi karakter setiap frame agar tidak bisa berotasi walau tabrakan
+        transform.rotation = Quaternion.identity;
     }
 
     IEnumerator JumpSlowEffect()
@@ -193,5 +242,17 @@ public class Controller : MonoBehaviour
         isJumpSlowed = true;
         yield return new WaitForSeconds(jumpSlowDuration);
         isJumpSlowed = false;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Finish"))
+        {
+            isFinished = true;
+            forwardSpeed = 0f;
+            horizontalSpeed = 0f;
+            jumpForce = 0f;
+            // Tambahkan efek lain jika perlu
+        }
     }
 }

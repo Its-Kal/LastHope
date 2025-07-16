@@ -15,6 +15,7 @@ TagManager:
   - AI
   - CinemachineTarget
   - Peti
+  - SpawnCar
   layers:
   - Default
   - TransparentFX

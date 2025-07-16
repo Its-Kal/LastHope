@@ -66,6 +66,7 @@
     <Compile Include="Assets\MapGen.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Controller.cs" />
+    <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\RockFollow.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\Survivalist\StarterAssets\ThirdPersonController\Scripts\BasicRigidBodyPush.cs" />

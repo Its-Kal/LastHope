@@ -165,11 +165,14 @@ MonoBehaviour:
   obstacleSpacing: 22
   finishYOffset: 5
   finishYExtraOffset: -1.5
+  finishSpacing: 40
+  finishXOffset: 3
   spawnDelay: 4
   startXOffset: 500
+  playerPrefab: {fileID: 7243443136816347682, guid: f151ad35ea08b0349bf39b6401e2d9d2,
+    type: 3}
   player: {fileID: 0}
   destroyDistance: 20
-  obstacleDestroyTime: 60
 --- !u!4 &85853402
 Transform:
   m_ObjectHideFlags: 0

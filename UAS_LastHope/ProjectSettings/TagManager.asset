@@ -13,6 +13,8 @@ TagManager:
   - Generator
   - SpotLight
   - AI
+  - CinemachineTarget
+  - Peti
   layers:
   - Default
   - TransparentFX

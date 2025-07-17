@@ -16,6 +16,9 @@ TagManager:
   - CinemachineTarget
   - Peti
   - SpawnCar
+  - TrigGuard
+  - TrigGuaard
+  - TrigNPC
   layers:
   - Default
   - TransparentFX

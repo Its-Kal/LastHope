@@ -65,9 +65,9 @@
   <ItemGroup>
     <Compile Include="Assets\Script\CameraFollow.cs" />
     <Compile Include="Assets\Script\MapGen.cs" />
-    <Compile Include="Assets\Script\NpcEnemy.cs" />
+    <Compile Include="Assets\NpcEnemy.cs" />
     <Compile Include="Assets\Script\Guard.cs" />
-    <Compile Include="Assets\Script\Controller.cs" />
+    <Compile Include="Assets\Controller.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -15,7 +15,7 @@ C:/LASTHOPE_UNITY/LastHope/UAS_LastHope
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49811
+49915
 Successfully changed project path to: C:/LASTHOPE_UNITY/LastHope/UAS_LastHope
 C:/LASTHOPE_UNITY/LastHope/UAS_LastHope
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ C:/LASTHOPE_UNITY/LastHope/UAS_LastHope
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7652]  Target information:
+Player connection [18592]  Target information:
 
-Player connection [7652]  * "[IP] 10.121.42.102 [Port] 0 [Flags] 2 [Guid] 3191942136 [EditorId] 3191942136 [Version] 1048832 [Id] WindowsEditor(7,Kal) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18592]  * "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 2520528374 [EditorId] 2520528374 [Version] 1048832 [Id] WindowsEditor(7,Kal) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7652] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7652] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18592] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18592] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
-Refreshing native plugins compatible for Editor in 55.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 27.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.57f1 (9d8bd91adc0a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Resources/UnitySubsystems
@@ -73,45 +73,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.028538 seconds.
-- Loaded All Assemblies, in  1.773 seconds
+Registered in 0.016258 seconds.
+- Loaded All Assemblies, in  1.285 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.127 seconds
-Domain Reload Profiling: 2896ms
-	BeginReloadAssembly (690ms)
+- Finished resetting the current domain, in  1.420 seconds
+Domain Reload Profiling: 2701ms
+	BeginReloadAssembly (465ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (232ms)
-	RebuildNativeTypeToScriptingClass (47ms)
-	initialDomainReloadingComplete (257ms)
-	LoadAllAssembliesAndSetupDomain (541ms)
-		LoadAssemblies (677ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (230ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (163ms)
+	LoadAllAssembliesAndSetupDomain (389ms)
+		LoadAssemblies (456ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (535ms)
-			TypeCache.Refresh (532ms)
-				TypeCache.ScanAssembly (490ms)
+		AnalyzeDomain (385ms)
+			TypeCache.Refresh (382ms)
+				TypeCache.ScanAssembly (348ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1129ms)
+	FinalizeReload (1421ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (936ms)
+		SetupLoadedEditorAssemblies (1257ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (28ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (22ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (625ms)
-			ProcessInitializeOnLoadMethodAttributes (238ms)
-			AfterProcessingInitializeOnLoad (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (697ms)
+			ProcessInitializeOnLoadMethodAttributes (506ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -119,50 +119,50 @@ Domain Reload Profiling: 2896ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.860 seconds
+- Loaded All Assemblies, in  1.955 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.686 seconds
-Domain Reload Profiling: 6536ms
-	BeginReloadAssembly (826ms)
+- Finished resetting the current domain, in  2.388 seconds
+Domain Reload Profiling: 4338ms
+	BeginReloadAssembly (482ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (36ms)
+		DisableScriptedObjects (19ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (95ms)
-	RebuildCommonClasses (266ms)
-	RebuildNativeTypeToScriptingClass (68ms)
-	initialDomainReloadingComplete (357ms)
-	LoadAllAssembliesAndSetupDomain (2331ms)
-		LoadAssemblies (1613ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (129ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (1202ms)
+		LoadAssemblies (932ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1196ms)
-			TypeCache.Refresh (1044ms)
-				TypeCache.ScanAssembly (982ms)
-			ScanForSourceGeneratedMonoScriptInfo (110ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (2688ms)
+		AnalyzeDomain (573ms)
+			TypeCache.Refresh (506ms)
+				TypeCache.ScanAssembly (469ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2389ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1804ms)
+		SetupLoadedEditorAssemblies (1948ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (17ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (302ms)
-			ProcessInitializeOnLoadAttributes (1368ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (19ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (1561ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (20ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 12.40 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (22ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 11.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3719 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (128.0 KB). Loaded Objects now: 4193.
-Memory consumption went from 134.2 MB to 134.1 MB.
-Total: 9.408000 ms (FindLiveObjects: 0.423700 ms CreateObjectMapping: 0.766800 ms MarkObjects: 7.983500 ms  DeleteObjects: 0.232300 ms)
+Unloading 34 unused Assets / (128.3 KB). Loaded Objects now: 4193.
+Memory consumption went from 134.4 MB to 134.2 MB.
+Total: 11.692000 ms (FindLiveObjects: 0.502300 ms CreateObjectMapping: 0.523400 ms MarkObjects: 10.213100 ms  DeleteObjects: 0.451400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,61 +180,902 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 315.698988 seconds.
-  path: Assets/Prefabs_New/OUT.prefab
-  artifactKey: Guid(c7f03bd0e76db494cb64f1f90f87c55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs_New/OUT.prefab using Guid(c7f03bd0e76db494cb64f1f90f87c55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
- -> (artifact id: '5961b592456bb3d59e82d8dbef6a7909') in 0.824569 seconds
+  Time since last request: 677.159109 seconds.
+  path: Assets/Survivalist/StarterAssets/ThirdPersonController/Character/Models
+  artifactKey: Guid(0269d5a21bf2fdd41a8310af2326495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/StarterAssets/ThirdPersonController/Character/Models using Guid(0269d5a21bf2fdd41a8310af2326495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0945098cf018f3a663b713950818552f') in 0.011414 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 840
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.478923 seconds.
+  path: Assets/Survivalist/StarterAssets/ThirdPersonController/Character/Animations
+  artifactKey: Guid(a859f983f5a611542bbeda54711bfe5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/StarterAssets/ThirdPersonController/Character/Animations using Guid(a859f983f5a611542bbeda54711bfe5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b8a127cc77dca67b55538d4b41d45e0e') in 0.002536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 162.658771 seconds.
+  path: Assets/Survivalist/Materials
+  artifactKey: Guid(3232ae25a076c524693e04439575d1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials using Guid(3232ae25a076c524693e04439575d1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '53eedad99446c15bb6b0a922baec9d53') in 0.002392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.963979 seconds.
+  path: Assets/Survivalist/Settings
+  artifactKey: Guid(2a7becf3280fc574faa617a91190bf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Settings using Guid(2a7becf3280fc574faa617a91190bf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '266a353d24ef7945ce20ee5d42c37b36') in 0.001737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.599852 seconds.
+  path: Assets/Survivalist/StarterAssets
+  artifactKey: Guid(f8eb0b3d5a451d04e93517e27fc9e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/StarterAssets using Guid(f8eb0b3d5a451d04e93517e27fc9e4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4f3a357faa986f841e65248b0a397318') in 0.001951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.679559 seconds.
+  path: Assets/Survivalist/StarterAssets/ThirdPersonController
+  artifactKey: Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/StarterAssets/ThirdPersonController using Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '567e6be5b55a20aa517b5eba32f91805') in 0.001257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.740562 seconds.
+  path: Assets/Survivalist/StarterAssets/ThirdPersonController/Character
+  artifactKey: Guid(135db69c43c47ee4e97c7c6b13621056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/StarterAssets/ThirdPersonController/Character using Guid(135db69c43c47ee4e97c7c6b13621056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4404b03a8753863b4084d524fcc473d4') in 0.001669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.731441 seconds.
+  path: Assets/Survivalist/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx
+  artifactKey: Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx using Guid(12e52e465ed793a4d801955e9f964a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3c2620d35bf1e27c79ee422361782ef7') in 0.135660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time since last request: 70.289954 seconds.
+  path: Assets/Survivalist/Materials URP
+  artifactKey: Guid(3f7419c434c974a469778113b045370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Materials URP using Guid(3f7419c434c974a469778113b045370b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4864256648b9246b40f6bf83212ea625') in 0.001735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.508107 seconds.
+  path: Assets/Survivalist/Prefab/PlayerArmature.prefab
+  artifactKey: Guid(76b9d8179905d454e9bf6dcc847231ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Prefab/PlayerArmature.prefab using Guid(76b9d8179905d454e9bf6dcc847231ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5fb8cdd1cde933535172c6bee08d888a') in 1.132383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 580
+========================================================================
+Received Import Request.
+  Time since last request: 3.576741 seconds.
+  path: Assets/Survivalist/Prefab/Environment
+  artifactKey: Guid(05ad3f3bd7408434a8abd5c40de7e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survivalist/Prefab/Environment using Guid(05ad3f3bd7408434a8abd5c40de7e3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e97e4a1817174a502b2e8cae2184e8ab') in 0.030633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 328.982738 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.019345 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:36.7040247Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:36.7040247Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022837 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003918 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:36.9100885Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:36.9100885Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048288 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004074 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:36.952664Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:36.952664Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.074007 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.011916 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:36.952664Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:36.952664Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001603 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.012360 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:36.952664Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:36.952664Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.043643 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.002488 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.1244475Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.1244475Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.092786 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.006306 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.1507819Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.1507819Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012624 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.021431 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.1507819Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.1507819Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.046703 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.009713 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.1507819Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.1507819Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059631 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.010464 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.4203448Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.4203448Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048169 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004530 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.4203448Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.4203448Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021273 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005690 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.4203448Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.4203448Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051798 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.002315 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.4203448Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.4203448Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.064340 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003183 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.4203448Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.4203448Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061249 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003164 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.046053 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.002712 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060042 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.002509 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066518 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.011547 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.040277 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014513 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.002195 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:37.7342395Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075010 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004243 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.0397457Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.0397457Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052582 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003041 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.0397457Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.0397457Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078037 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.010972 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.0397457Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.0397457Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000828 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.033340 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.0397457Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.0397457Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017948 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.006003 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.0397457Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.0397457Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.057366 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003048 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.3535372Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.3535372Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061218 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.013194 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.3535372Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.3535372Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001179 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.007132 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.3535372Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.3535372Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055749 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003492 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.3535372Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.3535372Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049277 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.002439 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.3535372Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.3535372Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.070763 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003887 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.6523853Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.6523853Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058635 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.002768 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.6523853Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.6523853Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052750 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003002 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.6523853Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.6523853Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.064236 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005279 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.8628792Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.8628792Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006130 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.044430 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.8628792Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.8628792Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021149 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004269 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.8628792Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:38.8628792Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.088032 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.015907 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.0801522Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.0801522Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061278 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004184 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.0801522Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.0801522Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.058263 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.002274 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.0801522Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.0801522Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073017 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.004633 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.0801522Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.0801522Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077021 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005734 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.3467408Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.3467408Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.056656 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.002545 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.3467408Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.3467408Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077817 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.007836 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.3467408Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.3467408Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000921 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.008752 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.3467408Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.3467408Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.032126 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.005691 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.5853423Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.5853423Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054101 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.003128 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.5853423Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.5853423Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059295 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.002513 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.5853423Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:39.5853423Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.403009 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.131068 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:40.2246883Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:40.2246883Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080993 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.016645 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:40.2776543Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:40.2776543Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001791 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.009411 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:40.2776543Z'
+  ERROR: Build asset version error: assets/mine/unconfirmed 160990.crdownload in SourceAssetDB has modification time of '2025-07-17T15:54:31.7886062Z' while content on disk has modification time of '2025-07-17T15:54:40.2776543Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.224774 seconds.
+  path: Assets/Mine/Unconfirmed 160990.crdownload
+  artifactKey: Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Unconfirmed 160990.crdownload using Guid(3f4c4a82add07c64ea5a2f38b5a66ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a17a2979553839cc39f90f305c014d3f') in 0.004379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 66.129297 seconds.
+  path: Assets/Mine/Ch10_nonPBR@Zombie Idle.fbx
+  artifactKey: Guid(2c73796494b294c42861608b852287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Ch10_nonPBR@Zombie Idle.fbx using Guid(2c73796494b294c42861608b852287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '790413b1379b0d6dbeceecdf87e86528') in 0.819471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 19.231776 seconds.
+  path: Assets/Mine/Ch10_nonPBR@Zombie Idle.fbx
+  artifactKey: Guid(2c73796494b294c42861608b852287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Ch10_nonPBR@Zombie Idle.fbx using Guid(2c73796494b294c42861608b852287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '337064859c731a0fb4f829fc0974f206') in 0.379675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 158.697184 seconds.
+  path: Assets/Mine/Ch10_nonPBR@Zombie Idle.fbx
+  artifactKey: Guid(2c73796494b294c42861608b852287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mine/Ch10_nonPBR@Zombie Idle.fbx using Guid(2c73796494b294c42861608b852287b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1bf212b59ae65899c84a0290fb8c48f8') in 0.159151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 2.892073 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9e0f598e005f410a34864cfe3d5b3989') in 0.380642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 790
+========================================================================
+Received Import Request.
+  Time since last request: 73.727785 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1c22fa03c972499f252b211d18d2655d') in 0.780712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1210
+========================================================================
+Received Import Request.
+  Time since last request: 4.802441 seconds.
+  path: Assets/Prefabs_New/GuardNPC.prefab
+  artifactKey: Guid(d0ed821559f230d4cb679403e9e050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/GuardNPC.prefab using Guid(d0ed821559f230d4cb679403e9e050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b242a327284c1283b39b8a26bee1f380') in 0.422866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '53a122ee42e2445b3e0607be5df45440') in 0.833217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1210
+========================================================================
+Received Import Request.
+  Time since last request: 8.345037 seconds.
+  path: Assets/Prefabs_New/GuardNPC.prefab
+  artifactKey: Guid(d0ed821559f230d4cb679403e9e050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/GuardNPC.prefab using Guid(d0ed821559f230d4cb679403e9e050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1b3ecbfe67f89c67a60b50b1a41b392c') in 0.432248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3557639a85ab9f1029dc8166af18fedf') in 0.705797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1210
+========================================================================
+Received Import Request.
+  Time since last request: 0.624576 seconds.
+  path: Assets/Prefabs_New/GuardNPC.prefab
+  artifactKey: Guid(d0ed821559f230d4cb679403e9e050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/GuardNPC.prefab using Guid(d0ed821559f230d4cb679403e9e050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1ff5c7e6fd16507409a7b4b9b4dabff7') in 0.350693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f12fe48c3b62de489bb16943f4b29460') in 0.613183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1209
+========================================================================
+Received Import Request.
+  Time since last request: 0.604301 seconds.
+  path: Assets/Prefabs_New/GuardNPC.prefab
+  artifactKey: Guid(d0ed821559f230d4cb679403e9e050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/GuardNPC.prefab using Guid(d0ed821559f230d4cb679403e9e050f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e905a62c73ac792b6f94b2538f26afa9') in 0.379385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '687a0f81d2a6f91f48c07a000014c1f3') in 0.640779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1210
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.074 seconds
+- Loaded All Assemblies, in  1.109 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.985 seconds
-Domain Reload Profiling: 6057ms
-	BeginReloadAssembly (313ms)
+- Finished resetting the current domain, in  4.733 seconds
+Domain Reload Profiling: 5839ms
+	BeginReloadAssembly (386ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (17ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (609ms)
-		LoadAssemblies (744ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (543ms)
+		LoadAssemblies (699ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
+		AnalyzeDomain (45ms)
 			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (4988ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (4735ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2545ms)
+		SetupLoadedEditorAssemblies (2507ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (24ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (304ms)
-			ProcessInitializeOnLoadAttributes (2044ms)
-			ProcessInitializeOnLoadMethodAttributes (108ms)
+			BeforeProcessingInitializeOnLoad (348ms)
+			ProcessInitializeOnLoadAttributes (1946ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
 			AfterProcessingInitializeOnLoad (36ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Refreshing native plugins compatible for Editor in 13.53 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 26.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (99.7 KB). Loaded Objects now: 4217.
-Memory consumption went from 136.5 MB to 136.4 MB.
-Total: 9.601600 ms (FindLiveObjects: 0.540200 ms CreateObjectMapping: 0.669900 ms MarkObjects: 8.241800 ms  DeleteObjects: 0.147100 ms)
+Unloading 15 unused Assets / (99.7 KB). Loaded Objects now: 4252.
+Memory consumption went from 137.7 MB to 137.6 MB.
+Total: 14.449000 ms (FindLiveObjects: 0.641500 ms CreateObjectMapping: 0.902400 ms MarkObjects: 12.742700 ms  DeleteObjects: 0.159300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -251,3 +1092,1539 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 118.251148 seconds.
+  path: Assets/Prefabs_New/npc-animator.controller
+  artifactKey: Guid(1d6c14f04d7218e4f934288d8b6c6848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/npc-animator.controller using Guid(1d6c14f04d7218e4f934288d8b6c6848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '334dee59ebe58cf7e182c61de69fea0f') in 0.134178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 165.975685 seconds.
+  path: Assets/Prefabs_Maps/NPC Variant.prefab
+  artifactKey: Guid(e36975d01a8c54d4f8a87c334d0851a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Maps/NPC Variant.prefab using Guid(e36975d01a8c54d4f8a87c334d0851a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ba46ac6bfdce5e9a58e5554970936fc1') in 1.004781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 427
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.932 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.477 seconds
+Domain Reload Profiling: 5406ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (581ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (4479ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2330ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (272ms)
+			ProcessInitializeOnLoadAttributes (1877ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 18.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (99.7 KB). Loaded Objects now: 4267.
+Memory consumption went from 137.7 MB to 137.6 MB.
+Total: 9.359700 ms (FindLiveObjects: 0.634600 ms CreateObjectMapping: 0.598400 ms MarkObjects: 7.823300 ms  DeleteObjects: 0.300700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 825.479869 seconds.
+  path: Assets/Prefabs_New/mixamo.com.anim
+  artifactKey: Guid(0dce966c93c7f9143819fe31448bfef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/mixamo.com.anim using Guid(0dce966c93c7f9143819fe31448bfef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6c2880056696b0503efee9dbdd2ccc0e') in 0.094152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.022590 seconds.
+  path: Assets/Prefabs_New/Player.prefab
+  artifactKey: Guid(f151ad35ea08b0349bf39b6401e2d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Player.prefab using Guid(f151ad35ea08b0349bf39b6401e2d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+The AnimationClip 'Fast Run' used by the Animation component 'Player' must be marked as Legacy.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+The AnimationClip 'Fast Run' used by the Animation component 'Player(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+The AnimationClip 'Fast Run' used by the Animation component 'Player(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+ -> (artifact id: 'd1ab99d5d08558bd8eaf7f1cc732fdf1') in 0.826441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 539
+========================================================================
+Received Import Request.
+  Time since last request: 12.751497 seconds.
+  path: Assets/Prefabs_New/Player.prefab
+  artifactKey: Guid(f151ad35ea08b0349bf39b6401e2d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Player.prefab using Guid(f151ad35ea08b0349bf39b6401e2d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+The AnimationClip 'Fast Run' used by the Animation component 'Player' must be marked as Legacy.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+The AnimationClip 'Fast Run' used by the Animation component 'Player(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+The AnimationClip 'Fast Run' used by the Animation component 'Player(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+ -> (artifact id: '63b6091950f3d67f5e8d95425589d62a') in 0.569928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 536
+========================================================================
+Received Import Request.
+  Time since last request: 3.733114 seconds.
+  path: Assets/Prefabs_New/npcEnemy.prefab
+  artifactKey: Guid(428f66ca9616f944bbc8ec98c14ebc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/npcEnemy.prefab using Guid(428f66ca9616f944bbc8ec98c14ebc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '00d373f7ab48800a8698c0c71ad56aa9') in 0.067657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 11.599327 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '197eb90fe0b850609b62b057909e206e') in 0.294796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 512
+========================================================================
+Received Import Request.
+  Time since last request: 3.401077 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2478f175028748c507147bf562f9abb2') in 0.312185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 6.871326 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '74cef87a6ecc5946e67b376c54c52583') in 0.253623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 8.718692 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5014dca8db1be1073b0e2addc0e5500f') in 0.259447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 39.468809 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b565d5697107f7ea1c5cf21733f0c0ea') in 0.283070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 542
+========================================================================
+Received Import Request.
+  Time since last request: 15.329144 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bc6930500de812fbe6e2cbac1211c7aa') in 0.250431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 542
+========================================================================
+Received Import Request.
+  Time since last request: 11.681553 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1724e8035deed0f7afd91bd3685c278e') in 0.252801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 13.911765 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '18db7e65dbb77d98d9d1cd22e6374ae9') in 0.260789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 1.753997 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a7350772f5d07864f0af5dafd79e5688') in 0.220498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 4.515876 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '107225aa45b6e90d779360f7547138ad') in 0.329606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 2.543304 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8ca9d257c4c00461641218bd780c08ac') in 0.306026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 6.077802 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bd4bf22561e7b065afdc42c5862eb344') in 0.388177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 4.235314 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8d7b31949006f7d7689a386ffda54394') in 0.231063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 3.002421 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '725e98219fd0a64d86a6f4f9b98d60de') in 0.232263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 3.758083 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '003ce112dbf6ef9634e08bc518755f73') in 0.355656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 2.545809 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1e86319d0f5d923945502e7a1ba7cc7a') in 0.245386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 2.137706 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '486835818a42e7e271eb45b3225a5035') in 0.278745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 0.939716 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7f5840c32ead93d16e47370381bb660b') in 0.242510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 543
+========================================================================
+Received Import Request.
+  Time since last request: 2.971492 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '19ac642482640cc79ca9904fca04772c') in 0.024650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.511 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 12.783 seconds
+Domain Reload Profiling: 14302ms
+	BeginReloadAssembly (638ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (176ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (572ms)
+		LoadAssemblies (869ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (12796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (8320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (260ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (465ms)
+			ProcessInitializeOnLoadAttributes (5833ms)
+			ProcessInitializeOnLoadMethodAttributes (1550ms)
+			AfterProcessingInitializeOnLoad (190ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+Refreshing native plugins compatible for Editor in 7.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.8 KB). Loaded Objects now: 4287.
+Memory consumption went from 138.3 MB to 138.2 MB.
+Total: 6.925400 ms (FindLiveObjects: 0.471000 ms CreateObjectMapping: 0.437700 ms MarkObjects: 5.921600 ms  DeleteObjects: 0.093600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 364d5f66cd4296b7fd66abd8127ab821 -> 0057fbd241038b19695f1feacd91e5e1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.883 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.111 seconds
+Domain Reload Profiling: 2990ms
+	BeginReloadAssembly (280ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (439ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (69ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2112ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1073ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (847ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.8 KB). Loaded Objects now: 4302.
+Memory consumption went from 138.3 MB to 138.2 MB.
+Total: 5.569000 ms (FindLiveObjects: 0.381100 ms CreateObjectMapping: 0.371500 ms MarkObjects: 4.743700 ms  DeleteObjects: 0.071100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 364d5f66cd4296b7fd66abd8127ab821 -> 0057fbd241038b19695f1feacd91e5e1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.869 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.194 seconds
+Domain Reload Profiling: 5060ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (557ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (4196ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2515ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (336ms)
+			ProcessInitializeOnLoadAttributes (1983ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (36ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 9.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.8 KB). Loaded Objects now: 4317.
+Memory consumption went from 138.3 MB to 138.2 MB.
+Total: 10.275000 ms (FindLiveObjects: 0.695000 ms CreateObjectMapping: 0.777000 ms MarkObjects: 8.701100 ms  DeleteObjects: 0.098700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 364d5f66cd4296b7fd66abd8127ab821 -> 0057fbd241038b19695f1feacd91e5e1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.150 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.309 seconds
+Domain Reload Profiling: 3453ms
+	BeginReloadAssembly (284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (716ms)
+		LoadAssemblies (808ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (67ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2310ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (847ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (679ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.8 KB). Loaded Objects now: 4332.
+Memory consumption went from 138.3 MB to 138.2 MB.
+Total: 5.624300 ms (FindLiveObjects: 0.487500 ms CreateObjectMapping: 0.370300 ms MarkObjects: 4.663800 ms  DeleteObjects: 0.101200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 364d5f66cd4296b7fd66abd8127ab821 -> 0057fbd241038b19695f1feacd91e5e1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.918 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.810 seconds
+Domain Reload Profiling: 5723ms
+	BeginReloadAssembly (308ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (454ms)
+		LoadAssemblies (597ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (4812ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (325ms)
+			ProcessInitializeOnLoadAttributes (1817ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (35ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 22.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.9 KB). Loaded Objects now: 4347.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 26.371000 ms (FindLiveObjects: 0.774900 ms CreateObjectMapping: 1.419300 ms MarkObjects: 23.983800 ms  DeleteObjects: 0.190600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 364d5f66cd4296b7fd66abd8127ab821 -> 0057fbd241038b19695f1feacd91e5e1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.882 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.663 seconds
+Domain Reload Profiling: 6540ms
+	BeginReloadAssembly (289ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (426ms)
+		LoadAssemblies (571ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (5664ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3618ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (304ms)
+			ProcessInitializeOnLoadAttributes (3133ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 16.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.9 KB). Loaded Objects now: 4362.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 12.338900 ms (FindLiveObjects: 0.804900 ms CreateObjectMapping: 1.326200 ms MarkObjects: 10.085800 ms  DeleteObjects: 0.120000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 364d5f66cd4296b7fd66abd8127ab821 -> 0057fbd241038b19695f1feacd91e5e1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.925 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.996 seconds
+Domain Reload Profiling: 2915ms
+	BeginReloadAssembly (346ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (440ms)
+		LoadAssemblies (605ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (76ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1997ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (763ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (601ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 5.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.9 KB). Loaded Objects now: 4377.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 5.619100 ms (FindLiveObjects: 0.470600 ms CreateObjectMapping: 0.538500 ms MarkObjects: 4.522100 ms  DeleteObjects: 0.086400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 364d5f66cd4296b7fd66abd8127ab821 -> 0057fbd241038b19695f1feacd91e5e1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.797 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.222 seconds
+Domain Reload Profiling: 5017ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (528ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (4225ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1973ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (215ms)
+			ProcessInitializeOnLoadAttributes (1578ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 14.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.9 KB). Loaded Objects now: 4392.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 9.227400 ms (FindLiveObjects: 0.413500 ms CreateObjectMapping: 0.471600 ms MarkObjects: 6.936900 ms  DeleteObjects: 1.403700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 364d5f66cd4296b7fd66abd8127ab821 -> 0057fbd241038b19695f1feacd91e5e1
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.154 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 24.989 seconds
+Domain Reload Profiling: 26149ms
+	BeginReloadAssembly (346ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (603ms)
+		LoadAssemblies (774ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (25001ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (13147ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (645ms)
+			ProcessInitializeOnLoadAttributes (11519ms)
+			ProcessInitializeOnLoadMethodAttributes (799ms)
+			AfterProcessingInitializeOnLoad (118ms)
+			EditorAssembliesLoaded (7ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (97ms)
+Refreshing native plugins compatible for Editor in 12.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (99.0 KB). Loaded Objects now: 4407.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 6.383000 ms (FindLiveObjects: 0.386700 ms CreateObjectMapping: 0.345100 ms MarkObjects: 5.557900 ms  DeleteObjects: 0.091500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 364d5f66cd4296b7fd66abd8127ab821 -> 0057fbd241038b19695f1feacd91e5e1
+========================================================================
+Received Import Request.
+  Time since last request: 912.103522 seconds.
+  path: Assets/NpcEnemy.cs
+  artifactKey: Guid(25ede4c846f543249b0461889d72f0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NpcEnemy.cs using Guid(25ede4c846f543249b0461889d72f0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5820917692b314819b1fe84e420914d8') in 0.013709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.997454 seconds.
+  path: Assets/Guard.cs
+  artifactKey: Guid(8c3268e04a5ff044cb1de509945ad96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guard.cs using Guid(8c3268e04a5ff044cb1de509945ad96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '186f7f8196d5861c771b685c01a4bcc0') in 0.002242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.456121 seconds.
+  path: Assets/Controller.cs
+  artifactKey: Guid(b82104a627c8ed243862acd38a281c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Controller.cs using Guid(b82104a627c8ed243862acd38a281c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '43029c71d3e46eceb22aea0685b5bf95') in 0.001840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.419935 seconds.
+  path: Assets/CameraFollow.cs
+  artifactKey: Guid(1aad5a171865a3347b9b8de4aaf7ff5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CameraFollow.cs using Guid(1aad5a171865a3347b9b8de4aaf7ff5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9da384e6fb93faa61800c6d05c47715f') in 0.007522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.042897 seconds.
+  path: Assets/Prefabs_Maps/NPC Variant.prefab
+  artifactKey: Guid(e36975d01a8c54d4f8a87c334d0851a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Maps/NPC Variant.prefab using Guid(e36975d01a8c54d4f8a87c334d0851a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a30df0741f959ec27a814f9ac4042824') in 0.922452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 423
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs_Maps/Player Variant.prefab
+  artifactKey: Guid(53973c9c5dcae8f4aadbccef7c9bc1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Maps/Player Variant.prefab using Guid(53973c9c5dcae8f4aadbccef7c9bc1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '51f05b16654f1bbd6272ab1cb2f045d8') in 0.744473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 702
+========================================================================
+Received Import Request.
+  Time since last request: 21.331622 seconds.
+  path: Assets/MapGen.cs
+  artifactKey: Guid(b3cfb256d46f82940971591f97455495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapGen.cs using Guid(b3cfb256d46f82940971591f97455495) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fbfde629684890001acaecf6e9e744b8') in 0.009772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.024722 seconds.
+  path: Assets/RockFollow.cs
+  artifactKey: Guid(e9a0ba2338a492546b0707d04eda1a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RockFollow.cs using Guid(e9a0ba2338a492546b0707d04eda1a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '58ae1a18e756063ae23cbba7b65ee8a6') in 0.001110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.910 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.491 seconds
+Domain Reload Profiling: 3397ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (546ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2492ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (1122ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 13.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (99.4 KB). Loaded Objects now: 4421.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 9.805400 ms (FindLiveObjects: 0.657800 ms CreateObjectMapping: 0.758600 ms MarkObjects: 8.281500 ms  DeleteObjects: 0.105400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7af44e6ffd56a70323cce98b1f2ae46e -> 0057fbd241038b19695f1feacd91e5e1
+========================================================================
+Received Import Request.
+  Time since last request: 18.559090 seconds.
+  path: Assets/Prefabs_New/Start_New.prefab
+  artifactKey: Guid(815013d22c726204a978bfa9eb64d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Start_New.prefab using Guid(815013d22c726204a978bfa9eb64d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7d4cbe1e40cf65beab5745915b15f0b6') in 0.561027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 397
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs_New/Player.prefab
+  artifactKey: Guid(f151ad35ea08b0349bf39b6401e2d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Player.prefab using Guid(f151ad35ea08b0349bf39b6401e2d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+The AnimationClip 'Fast Run' used by the Animation component 'Player' must be marked as Legacy.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+The AnimationClip 'Fast Run' used by the Animation component 'Player(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+The AnimationClip 'Fast Run' used by the Animation component 'Player(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+ -> (artifact id: '146009cbb6867fbecbbf6ed0d7992333') in 0.647401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 536
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs_New/Obstacle_3_New.prefab
+  artifactKey: Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Obstacle_3_New.prefab using Guid(ff82243bd1735d24a965647176ecf064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b7fe25eec3ddd1ec94520751afd34354') in 0.321955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 544
+========================================================================
+Received Import Request.
+  Time since last request: 13.875469 seconds.
+  path: Assets/Prefabs_New/Start_New.prefab
+  artifactKey: Guid(815013d22c726204a978bfa9eb64d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Start_New.prefab using Guid(815013d22c726204a978bfa9eb64d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bf69605130b60e0325163e94554b135b') in 0.263158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 380
+========================================================================
+Received Import Request.
+  Time since last request: 32.537274 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '48be7c942436d73c261b1e95d89b6332') in 0.019582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.904 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.063 seconds
+Domain Reload Profiling: 2964ms
+	BeginReloadAssembly (305ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (537ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (67ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2063ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (968ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (761ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (100.5 KB). Loaded Objects now: 4433.
+Memory consumption went from 136.8 MB to 136.7 MB.
+Total: 4.347700 ms (FindLiveObjects: 0.397000 ms CreateObjectMapping: 0.300100 ms MarkObjects: 3.569100 ms  DeleteObjects: 0.066700 ms)
+
+Prepare: number of updated asset objects reloaded= 2
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4d5a4e08a4d5c3c9c0d24f993828cc83 -> 0057fbd241038b19695f1feacd91e5e1
+  custom:scripting/monoscript/fileName/StarterAssetsDeployMenu.cs:  -> f6abf41bee2cce11d88ef37a7d2ac4c0
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> 39a9522c722c90cc0d5392d28b06ad38
+========================================================================
+Received Import Request.
+  Time since last request: 132.338636 seconds.
+  path: Assets/Prefabs_New/OUT.prefab
+  artifactKey: Guid(c7f03bd0e76db494cb64f1f90f87c55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/OUT.prefab using Guid(c7f03bd0e76db494cb64f1f90f87c55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '81768414e2b6708a3238c11e38ef0797') in 0.366459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000616 seconds.
+  path: Assets/Prefabs_New/Player.prefab
+  artifactKey: Guid(f151ad35ea08b0349bf39b6401e2d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_New/Player.prefab using Guid(f151ad35ea08b0349bf39b6401e2d9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dbf7a77ebc92601be898c0352ac9d770') in 0.023902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 189
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.847 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.310 seconds
+Domain Reload Profiling: 6153ms
+	BeginReloadAssembly (308ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (515ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (5311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3386ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (240ms)
+			ProcessInitializeOnLoadAttributes (2947ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 9.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (99.0 KB). Loaded Objects now: 4447.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 13.189900 ms (FindLiveObjects: 3.459500 ms CreateObjectMapping: 0.722200 ms MarkObjects: 8.724700 ms  DeleteObjects: 0.281400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 94f5a0489ec60d25768c69ee6d4a222c -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4d5a4e08a4d5c3c9c0d24f993828cc83 -> 0057fbd241038b19695f1feacd91e5e1
+  custom:scripting/monoscript/fileName/StarterAssetsDeployMenu.cs:  -> f6abf41bee2cce11d88ef37a7d2ac4c0
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> 39a9522c722c90cc0d5392d28b06ad38
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.986 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.362 seconds
+Domain Reload Profiling: 3343ms
+	BeginReloadAssembly (301ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (491ms)
+		LoadAssemblies (570ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (2364ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1020ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (845ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.9 KB). Loaded Objects now: 4462.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 4.725100 ms (FindLiveObjects: 0.496900 ms CreateObjectMapping: 0.456500 ms MarkObjects: 3.707900 ms  DeleteObjects: 0.062400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Guard.cs: 362f09af843f969a4178f1fe5b9cb57b -> 84874a61986e877bf820bb4a1fd4330e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/MapGen.cs: 60be754b2cdf773f58f32cd2f29c4b46 -> 50757fc60c8ce7799833d33896e3087a
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraFollow.cs: f056d39a9671ab128d63c9d9e2ecd81c -> de990732cc429467f8f49571d0872163
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Controller.cs: 83623ba3567b8f11fb361ef55cb909aa -> 9ac834cf3508dd1b6236017959eb9876
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 115c4c2c0a52ba75c546953f374aa01d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2143285255539c0ddc8f0c56fec61d06 -> 0057fbd241038b19695f1feacd91e5e1
+  custom:scripting/monoscript/fileName/StarterAssetsDeployMenu.cs:  -> f6abf41bee2cce11d88ef37a7d2ac4c0
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> 39a9522c722c90cc0d5392d28b06ad38
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.915 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.979 seconds
+Domain Reload Profiling: 2889ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (454ms)
+		LoadAssemblies (592ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1980ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (990ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (99.0 KB). Loaded Objects now: 4477.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 5.517600 ms (FindLiveObjects: 0.474700 ms CreateObjectMapping: 0.474300 ms MarkObjects: 4.453400 ms  DeleteObjects: 0.113400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Guard.cs: 362f09af843f969a4178f1fe5b9cb57b -> 84874a61986e877bf820bb4a1fd4330e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/MapGen.cs: 60be754b2cdf773f58f32cd2f29c4b46 -> 50757fc60c8ce7799833d33896e3087a
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraFollow.cs: f056d39a9671ab128d63c9d9e2ecd81c -> de990732cc429467f8f49571d0872163
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Controller.cs: 83623ba3567b8f11fb361ef55cb909aa -> 9ac834cf3508dd1b6236017959eb9876
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 115c4c2c0a52ba75c546953f374aa01d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2143285255539c0ddc8f0c56fec61d06 -> 0057fbd241038b19695f1feacd91e5e1
+  custom:scripting/monoscript/fileName/StarterAssetsDeployMenu.cs:  -> f6abf41bee2cce11d88ef37a7d2ac4c0
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> 39a9522c722c90cc0d5392d28b06ad38
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.004 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.225 seconds
+Domain Reload Profiling: 5224ms
+	BeginReloadAssembly (430ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (683ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (4226ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2122ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (23ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (1745ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 124.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (99.0 KB). Loaded Objects now: 4492.
+Memory consumption went from 136.1 MB to 136.0 MB.
+Total: 7.943400 ms (FindLiveObjects: 0.528600 ms CreateObjectMapping: 0.579100 ms MarkObjects: 6.712500 ms  DeleteObjects: 0.121000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Guard.cs: 362f09af843f969a4178f1fe5b9cb57b -> 84874a61986e877bf820bb4a1fd4330e
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/MapGen.cs: 60be754b2cdf773f58f32cd2f29c4b46 -> 50757fc60c8ce7799833d33896e3087a
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CameraFollow.cs: f056d39a9671ab128d63c9d9e2ecd81c -> de990732cc429467f8f49571d0872163
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Controller.cs: 83623ba3567b8f11fb361ef55cb909aa -> 9ac834cf3508dd1b6236017959eb9876
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/NpcEnemy.cs: 115c4c2c0a52ba75c546953f374aa01d -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 2143285255539c0ddc8f0c56fec61d06 -> 0057fbd241038b19695f1feacd91e5e1
+  custom:scripting/monoscript/fileName/StarterAssetsDeployMenu.cs:  -> f6abf41bee2cce11d88ef37a7d2ac4c0
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor:  -> 39a9522c722c90cc0d5392d28b06ad38

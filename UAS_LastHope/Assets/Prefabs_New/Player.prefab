@@ -2703,19 +2703,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 7243443136816347682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b82104a627c8ed243862acd38a281c6d, type: 3}
+  m_Script: {fileID: 11500000, guid: e730d6dccceb5384baf765b3bbf70baf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   forwardSpeed: 5
   horizontalSpeed: 5
-  jumpForce: 7
+  jumpForce: 8
   crouchHeight: 0.5
   mouseSensitivity: 100
-  jumpSound: {fileID: 8300000, guid: d1c8b846ba77eb04f93b724380bafe07, type: 3}
-  runSound: {fileID: 8300000, guid: 25669c5d7d2953746a515d0531dc61be, type: 3}
+  jumpSound: {fileID: 0}
+  runSound: {fileID: 0}
   crouchSpeedMultiplier: 0.5
   jumpSlowMultiplier: 0.5
   jumpSlowDuration: 1.5
+  sleddingForce: 10
   gravity: -9.81
 --- !u!65 &4866691396582638747
 BoxCollider:

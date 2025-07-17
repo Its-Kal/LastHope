@@ -364,6 +364,7 @@
 "Assets/Script/CameraFollow.cs"
 "Assets/Script/Guard.cs"
 "Assets/Script/MapGen.cs"
+"Assets/Soldier_Final.cs"
 -langversion:9.0
 /deterministic
 /optimize+

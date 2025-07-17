@@ -68,6 +68,7 @@
     <Compile Include="Assets\NpcEnemy.cs" />
     <Compile Include="Assets\Script\Guard.cs" />
     <Compile Include="Assets\Controller.cs" />
+    <Compile Include="Assets\Soldier_Final.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

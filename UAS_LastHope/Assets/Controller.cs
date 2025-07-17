@@ -27,7 +27,19 @@ public class Controller : MonoBehaviour
     private bool stoppedByGuard = false;
     private bool isSledding = false;
     public float sleddingForce = 10f;
+    public float sleddingDistanceBuffer = 1.5f; // Jarak buffer agar player masih bisa sledding sebelum berhenti
     private NpcEnemy nearbyNpcEnemy = null;
+    private float sleddingTimer = 0f;
+    public float sleddingTimeLimit = 3f; // Waktu maksimal untuk sledding sebelum kalah
+    private bool sleddingCountdownActive = false;
+    private Renderer playerRenderer;
+    private Color normalColor;
+    private Color runningColor = new Color(1.2f, 1.2f, 1.2f, 1f); // Lebih terang
+
+    void Awake()
+    {
+        Application.targetFrameRate = 60; // Batasi FPS ke 60 agar lebih stabil
+    }
 
     void Start()
     {
@@ -50,6 +62,12 @@ public class Controller : MonoBehaviour
             audioSource.Play();
             isRunningSoundPlaying = true;
         }
+        // Ambil renderer untuk efek lari
+        playerRenderer = GetComponentInChildren<Renderer>();
+        if (playerRenderer != null)
+        {
+            normalColor = playerRenderer.material.color;
+        }
     }
 
     private float verticalVelocity = 0f;
@@ -57,24 +75,9 @@ public class Controller : MonoBehaviour
 
     void Update()
     {
-        if (isFinished || stoppedByGuard)
-        {
-            // Sledding: jika player menekan Ctrl saat berhenti karena npc
-            if (nearbyNpcEnemy != null && Input.GetKeyDown(KeyCode.LeftControl))
-            {
-                isSledding = true;
-                Debug.Log("Player melakukan sledding ke NpcEnemy!");
-                nearbyNpcEnemy.GetSledged(transform, sleddingForce);
-                stoppedByGuard = false;
-                nearbyNpcEnemy = null;
-                return;
-            }
+        // Jika sudah finish, hentikan semua kontrol
+        if (isFinished)
             return;
-        }
-        else
-        {
-            isSledding = false;
-        }
 
         RaycastHit hit;
         float speedMultiplier = 1f;
@@ -87,10 +90,75 @@ public class Controller : MonoBehaviour
         if (Input.GetKey(KeyCode.A)) horizontalInput = -1f;
         else if (Input.GetKey(KeyCode.D)) horizontalInput = 1f;
 
+        // Cek tabrakan depan dengan Raycast
         float zSpeed = forwardSpeed * speedMultiplier;
         if (Physics.Raycast(transform.position + Vector3.up * 0.1f, Vector3.forward, out hit, 0.6f))
         {
             zSpeed = 0f;
+        }
+
+        // Efek visual lari: ubah warna saat lari
+        if (playerRenderer != null)
+        {
+            if (zSpeed > 0.1f)
+                playerRenderer.material.color = runningColor;
+            else
+                playerRenderer.material.color = normalColor;
+        }
+
+        // Sledding: jika player dekat npcEnemy dan klik kiri mouse
+        if (nearbyNpcEnemy != null)
+        {
+            float distanceToNpc = Vector3.Distance(transform.position, nearbyNpcEnemy.transform.position);
+            if (distanceToNpc <= nearbyNpcEnemy.stopDistance + sleddingDistanceBuffer)
+            {
+                // Aktifkan timer sledding jika belum aktif
+                if (!sleddingCountdownActive)
+                {
+                    sleddingCountdownActive = true;
+                    sleddingTimer = 0f;
+                }
+                else
+                {
+                    sleddingTimer += Time.deltaTime;
+                    if (sleddingTimer >= sleddingTimeLimit)
+                    {
+                        Debug.Log("Player kalah karena tidak sledding dalam 5 detik!");
+                        isFinished = true; // Atau panggil GameOver()
+                        return;
+                    }
+                }
+                // Masih dalam jarak buffer, player bisa sledding
+                if (sleddingTimer < sleddingTimeLimit && Input.GetMouseButtonDown(0)) // Klik kiri mouse
+                {
+                    isSledding = true;
+                    Debug.Log("Player melakukan sledding ke NpcEnemy!");
+                    nearbyNpcEnemy.GetSledged(transform, sleddingForce);
+                    stoppedByGuard = false;
+                    nearbyNpcEnemy = null;
+                    sleddingCountdownActive = false;
+                    sleddingTimer = 0f;
+                    return;
+                }
+            }
+            else
+            {
+                // Keluar dari jarak buffer, reset timer
+                sleddingCountdownActive = false;
+                sleddingTimer = 0f;
+            }
+            // Jika sudah benar-benar dekat (tanpa buffer), player berhenti
+            if (distanceToNpc <= nearbyNpcEnemy.stopDistance)
+            {
+                stoppedByGuard = true;
+                return;
+            }
+        }
+        else
+        {
+            isSledding = false;
+            sleddingCountdownActive = false;
+            sleddingTimer = 0f;
         }
 
         Vector3 move = new Vector3(horizontalInput * horizontalSpeed * speedMultiplier, 0, zSpeed);

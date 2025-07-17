@@ -32,7 +32,11 @@ public class MapGen : MonoBehaviour
         float startLength = startRenderer != null ? startRenderer.bounds.size.z : 1f;
         Vector3 startPos = startPoint.position + new Vector3(startXOffset, 0, startLength * 0.5f);
         GameObject startObj = Instantiate(startPrefab, startPos, Quaternion.identity);
-        Destroy(startPoint.gameObject);
+        // Hapus startPoint hanya jika dia object di scene, bukan asset
+        if (startPoint != null && startPoint.gameObject.scene.IsValid())
+        {
+            Destroy(startPoint.gameObject);
+        }
 
         // Spawn player di posisi collider dengan tag "SpawnCar"
         GameObject spawnCarObj = GameObject.FindGameObjectWithTag("SpawnCar");
